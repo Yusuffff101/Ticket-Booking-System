@@ -16,6 +16,7 @@
     "test:phase2": "tsx src/tests/phase2.test.ts",
     "test:concurrency": "tsx src/tests/concurrency.test.ts",
     "test:waitlist": "tsx src/tests/waitlist.test.ts",
+    "test:email": "tsx src/tests/test-email.ts",
     "test": "tsx src/tests/auth.test.ts; tsx src/tests/phase2.test.ts; tsx src/tests/concurrency.test.ts; tsx src/tests/waitlist.test.ts"
   },
   "prisma": {
