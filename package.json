@@ -1,0 +1,15 @@
+{
+  "name": "ticket-booking-system",
+  "version": "1.0.0",
+  "description": "Production-ready Ticket Booking System with high concurrency, real-time seat maps, and waitlist engine",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "build:server": "npm --prefix server run build",
+    "seed:server": "npm --prefix server run prisma:seed",
+    "migrate:server": "npm --prefix server run prisma:migrate"
+  },
+  "keywords": ["ticket-booking", "concurrency", "redis-lock", "prisma", "websockets", "react"],
+  "author": "",
+  "license": "ISC"
+}
